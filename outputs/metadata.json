@@ -1,0 +1,35 @@
+{
+  "source_sha256": "fbc800cf2b8725453e7c1f8baee22125e1ed7f4163f3978731b1864a9f010f24",
+  "rows": 19735,
+  "training_rows": 15788,
+  "test_rows": 3947,
+  "train_start": "2016-01-11 17:00:00",
+  "train_end": "2016-04-30 08:10:00",
+  "test_start": "2016-04-30 08:20:00",
+  "test_end": "2016-05-27 18:00:00",
+  "selected_model": {
+    "name": "pcr_3_with_lights",
+    "kind": "pcr",
+    "components": 3,
+    "lights": true
+  },
+  "selection_rule": "Lowest mean validation RMSE among OLS/PCR",
+  "high_consumption_threshold": 210.19351687722903,
+  "negative_test_predictions": 0,
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "sklearn": "1.8.0"
+  },
+  "diagnostics": {
+    "design_rank": 13,
+    "design_columns": 13,
+    "condition_number": 21.920777769722278,
+    "training_residual_lag1_correlation": 0.7086957169953504,
+    "pca_explained_variance_ratio": [
+      0.346349488606248,
+      0.28067203943618896,
+      0.08786676003180113
+    ]
+  }
+}

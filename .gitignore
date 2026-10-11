@@ -1,0 +1,6 @@
+__pycache__/
+.venv/
+data/*
+!data/energydata_appliances_continuous.xlsx
+outputs/
+.mpl-cache/
